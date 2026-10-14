@@ -11,10 +11,7 @@
     --navy-light: #283593;
     --blue: #1976d2;
     --cyan: #0999C9;
-    --teal: #009688;
     --green: #4CAF50;
-    --orange: #FF9800;
-    --red: #f44336;
     --bg: #f5f7fa;
     --card: #ffffff;
     --text: #1a237e;
@@ -23,6 +20,10 @@
     --border: #e2e8f0;
     --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.12);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -72,11 +73,13 @@ body {
     color: #fff;
     font-size: 22px;
     font-weight: 700;
+    margin: 0;
 }
 
 .logo-text p {
     color: #B0BEC5;
     font-size: 12px;
+    margin: 0;
 }
 
 .nav {
